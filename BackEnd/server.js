@@ -3,7 +3,7 @@ const app = express()
 const port = 4000
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const pat = require('pat');
+const path = require('path');
 
 // Serve the static files from the React app
 app.use(express.static(path.join(__dirname, '../build')));
